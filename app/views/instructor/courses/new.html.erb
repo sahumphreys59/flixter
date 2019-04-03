@@ -6,9 +6,9 @@
 		<%= f.input :description %>
 		<%= f.input :cost %>
 		<br />
-		<%= simple_form_for @course, url: instructor_courses_path do |f| %>
+		
 			<%= f.input :image %>
-		<% end %>
+
 		<br />
 		<%= f.submit "Create", class: 'btn btn-primary' %>
 	<% end %>
