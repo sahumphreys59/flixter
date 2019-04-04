@@ -1,9 +1,9 @@
 Rails.application.configure do
-  config.action_mailer.default_url_options = { host: 'flixter-sarah-humphreys.herokuapp.com' }
+  config.action_mailer.default_url_options = { host: 'https://flixter-sarah-humphreys.herokuapp.com/'}
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.
-  }config.cache_classes = true
+  config.cache_classes = true
 
   # Eager load code on boot. This eager loads most of Rails and
   # your application in memory, allowing both threaded web servers
