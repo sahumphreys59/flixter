@@ -12,7 +12,9 @@
         });
       }
     });
-    
+  });
+
+  $(function() {
     $('.sections').sortable({
       update: function( event, ui ) {
         $.ajax({
@@ -24,6 +26,8 @@
       }
     });
   });
+
+
 </script>
 
 
