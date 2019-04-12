@@ -88,6 +88,7 @@ body {
 	font-family: "Helvetica Neue", Helvetica;
 	padding: 10px 0px;
 	margin-top: 30px;
+	font-weight: 100;
 }
 
 #footer a {
@@ -161,5 +162,10 @@ ul .header .fa {
 	margin: 0;
 }
 
+.social-button {
+	margin: 4px;
+}
 
-
+.social a:hover {
+	text-decoration: none;
+}
